@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bookdesign.css">
+    <title>Bookings</title>
+</head>
+<body>
+    <p>Booking Details</p>
+    <form>
+     <label for="name">Name</label>
+       <input type="text" name="name" id="name" placeholder="Name"><hr>
+       <label for="number">Phone Number </label>
+       <input type="tel" name="Phone Number" id="number" placeholder="Phone Number" pattern="[0-9]{10}" title="Please Enter a valid phone number"><hr>
+       <label for="email">E-mail</label>
+       <input type="email" name="email" id="email" placeholder="EMAIL"><hr>
+       <label for="Seats">Table for</label>
+       <select id="Seats" name="Numberofseats">
+        <option value=""> </option>
+        <option value="1-2">1-2</option>
+        <option value="3-6">3-6</option>
+        <option value="6-10">6-10</option>
+      </select><hr>
+      <label for="date">Required on</label>
+      <input type="date" id="date" name="date"><hr>
+       <button type="submit" class="btn">submit</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Design.css">
+    <title>Home</title>
+    <script src="Javascript.js"></script>    
+</head>
+<body>
+    <header>    
+        <a class="logo" href="#">The<span>BASILEIA</span></a>
+        <nav>
+            <ul class="middle">
+                <li><a href="#PHOTOS">Photos</a></li>
+                <li><a href="#MENU">Menu</a></li>
+                <li><a href="Bookings.html">Bookings</a></li>
+            </ul>   
+        </nav>
+        <ul>
+            <li> <a href="#" class="special-button">Contact US</a></li>
+            <li><a href="#" class="special-button">About US</a></li>           
+        </ul>
+    </header>
+    <div class="top"id="PHOTOS">Photo Gallery</div>
+    <div class="slide-container">
+        <span id="Slider-image-1"></span>
+        <span id="Slider-image-2"></span>
+        <span id="Slider-image-3"></span>
+        <span id="Slider-image-4"></span>
+        <span id="Slider-image-5"></span>
+        <span id="Slider-image-6"></span>
+        <div class="img-container">
+            <img src="images/1.jpg"  class="Slider-image" width="800px" height="550px">
+            <img src="images/2.jpg" class="Slider-image" width="800px" height="550px">
+            <img src="images/3.jpg" class="Slider-image" width="800px" height="550px">
+            <img src="images/4.jpg" class="Slider-image" width="800px" height="550px">
+            <img src="images/5.jpg" class="Slider-image" width="800px" height="550px">
+            <img src="images/6.jpg" class="Slider-image" width="800px" height="550px">
+        </div>
+        <div class="button-container">
+            <a href="#Slider-image-1" class="Slider-button"></a>
+            <a href="#Slider-image-2" class="Slider-button"></a>
+            <a href="#Slider-image-3" class="Slider-button"></a>
+            <a href="#Slider-image-4" class="Slider-button"></a>
+            <a href="#Slider-image-5" class="Slider-button"></a>
+            <a href="#Slider-image-6" class="Slider-button"></a>
+        </div>
+    </div>
+   
+    <div class="Menu-container"id="MENU">
+        <p>Menu</p>
+        <div class="tabs">
+            <input type="radio" id="eat" name="mytabs" checked="checked">
+            <label for="eat">Eats</label>
+            <div class="tab"> 
+                <ul>
+                <li><a href="#breakfastdiv" onclick="show()" id="heading1">Breakfast</a></li>
+            <div class="inner" id="breakfastdiv" style="display: none;">
+                           <div class="dosa">
+                               <span style="padding-left: 10px; color: bisque;font-size: 35px; margin: 10px;">DOSA</span>
+                                 <div>
+                                         <div class="column1"><img class="imgg" src="images/menu/simple dosa.jpg" alt="" >
+                                            <div class="middle123">
+                                              <button class="text"onclick="count()">Add to Order</button>
+                                            </div>
+                                        </div>
+                                        <div class="column2"> <span style="font-size: 30px; font-weight: 600;">Simple Dosa</span> <br><img src="images/menu/star.png" alt="" height="20px"> <br><span style="font-size: 20px;color: rgba(245, 241, 241, 0.534);">₹179.05</span></div>
+                                </div>
+                           </div>          
+                             
+            </div>
+                
+                    <li><a href="#brunchdiv" onclick="show2()" id="heading2">Brunch</a></li>
+                    <div class="inner" id="brunchdiv" style="display: none;">Hai nai</div>
+
+                <li><a href="#">Lunch</a></li>
+                <li><a href="#">Snacks</a></li>
+                <li><a href="#">Dinner</a></li>
+                <li><a href="#">Desserts</a></li>
+            </ul>
+            </div>
+            <input type="radio" id="drinks" name="mytabs">
+            <label for="drinks">Drinks</label>
+            <div class="tab"> 
+                <ul>
+                    <li><a href="#">Tea</a></li>
+                    <li><a href="#">Coffee</a></li>
+                    <li><a href="#">Sparkling Drinks</a></li>
+                    <li><a href="#">Sparkling Drinks</a></li>
+                    <li><a href="#">Juices</a></li>
+                    <li><a href="#">Energy Drinks</a></li>
+                    <li><a href="#">Mocktails</a></li>
+                    <li><a href="#">Milkshakes</a></li>
+                    <li><a href="#">Smoothies</a></li>
+                    <li><a href="#">Alcoholic Beverages</a></li>
+            </ul>
+        </div>
+        </div> 
+</div> 
+<footer><marquee>Copyright 2022 &#169 Nidhish Pajni</marquee></footer>
+</body>
+</html>
